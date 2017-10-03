@@ -6,7 +6,7 @@ function mayBeTrue()
 function forLoop(array)
 {
   var len = array.len
-  for(var i = 0; i<=25; i++)
+  for(var i = 0; i<25; i++)
   {
     if( i === 1)
     {
