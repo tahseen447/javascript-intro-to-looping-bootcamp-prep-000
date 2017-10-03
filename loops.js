@@ -33,9 +33,16 @@ function whileLoop(n)
 function doWhileLoop(array)
 {
   var len = array.length
-  do{
+  var text = "";
+var i = 0;
+do {
+    text += "The number is " + i;
+    i++;
+}
+while (i < 5);
+//  do{
   //  array.pop()
-  console.log("hi")
-  }
-  while(0);
+  //console.log("hi")
+  //}
+  //while(0);
 }
