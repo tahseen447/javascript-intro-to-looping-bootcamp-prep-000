@@ -36,6 +36,7 @@ function doWhileLoop(array)
   do{
   //  array.pop()
   console.log("hi")
+  array.pop()
   }
-  while(true);
+  while(array.length>0);
 }
