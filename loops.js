@@ -6,16 +6,15 @@ function mayBeTrue()
 function forLoop(array)
 {
   var len = array.len
-
   for(var i = 0; i<=25; i++)
   {
     if( i === 1)
     {
-      array[len+i]= "I am 1 strange loop."
+      array.push("I am 1 strange loop.")
     }
     else
      {
-      array[len+i]="I am ${i} strange loops."
+      array.push("I am ${i} strange loops.")
     }
   }
   return array
