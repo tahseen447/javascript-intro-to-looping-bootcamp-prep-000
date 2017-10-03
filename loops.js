@@ -32,6 +32,7 @@ function whileLoop(n)
 
 function doWhileLoop(array)
 {
+  var len = array.length
   do{
     array.pop()
   }
