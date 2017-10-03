@@ -32,9 +32,9 @@ function whileLoop(n)
 
 function doWhileLoop(array)
 {
-  //var len = array.length
+  var len = array.length
   do{
     array.pop()
   }
-  while(mayBeTrue());
+  while(array.length >0 && Math.random>0.5);
 }
