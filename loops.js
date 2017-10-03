@@ -36,7 +36,7 @@ function doWhileLoop(array)
   {
     array.pop()
   }
-  while(mayBeTrue() || array.length>0)
+  while(array.length>0)
   {
     array.pop()
   }
