@@ -40,5 +40,5 @@ function doWhileLoop(array)
 //  array.pop()
   n--
   }
-  while(false));
+  while(false);
 }
