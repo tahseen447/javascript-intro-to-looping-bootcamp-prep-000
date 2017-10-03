@@ -32,7 +32,8 @@ function whileLoop(n)
 
 function doWhileLoop(array)
 {
-  do
+  do{}
     array.pop()
+  }
   while(mayBeTrue());
 }
