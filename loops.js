@@ -33,12 +33,9 @@ function whileLoop(n)
 function doWhileLoop(array)
 {
   var len = array.length
-  n=5
   do{
   //  array.pop()
   console.log("hi")
-//  array.pop()
-  n--
   }
   while(false);
 }
