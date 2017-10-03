@@ -37,5 +37,5 @@ function doWhileLoop(array)
   //  array.pop()
   console.log("hi")
   }
-  while(Math.random>0.5);
+  while(true);
 }
